@@ -35,4 +35,21 @@
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 	</extension>
 </addon>
+    <addon id="plugin.video.filmelozetesek" name="Filmelőzetesek" version="1.0.0" provider-name="double beretta">
+ 	 <requires>
+ 	   <import addon="xbmc.python" version="2.14.0"/>
+ 	   <import addon="script.module.addon.common" version="2.0.0"/>
+ 	   <import addon="plugin.video.youtube" version="5.0.0"/>
+	  </requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="hu">Magyar filmelőzetesek a Youtube-ról</summary>
+    <description lang="hu"></description>
+    <platform>all</platform>
+    <source>https://github.com/hunrepo/Bifrost-Repo/tree/master/plugin.video.filmelozetesek</source>
+    <license>GPL v2.0</license>
+	</extension>
+</addon>
 </addons>
