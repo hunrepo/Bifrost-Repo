@@ -1,1 +1,6 @@
-- v1.0.0 legelso kiadas
+[B]1.0.1[/B]
+- Cinenuovo, Pannonia Entertainment, Magyarhangya csatornak hozzaadva
+- Hibajavitas
+
+[B]1.0.0[/B]
+- Legelso kiadas
