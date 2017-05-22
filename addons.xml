@@ -35,11 +35,11 @@
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 	</extension>
 	</addon>
-    <addon id="plugin.video.filmelozetesek" name="Filmelőzetesek" version="1.0.0" provider-name="double beretta">
+	<addon id="plugin.video.filmelozetesek" name="Filmelőzetesek" version="1.0.1" provider-name="double beretta">
 	<requires>
- 	   <import addon="xbmc.python" version="2.14.0"/>
- 	   <import addon="script.module.addon.common" version="2.0.0"/>
- 	   <import addon="plugin.video.youtube" version="5.0.0"/>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.addon.common" version="2.0.0"/>
+		<import addon="plugin.video.youtube" version="5.0.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -51,14 +51,14 @@
 		<platform>all</platform>
 		<source>https://github.com/hunrepo/Bifrost-Repo/tree/master/plugin.video.filmelozetesek</source>
 		<license>GPL v2.0</license>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.png</fanart>
-        <screenshot>resources/screenshot-01.jpg</screenshot>
-        <screenshot>resources/screenshot-02.jpg</screenshot>
-        <screenshot>resources/screenshot-03.jpg</screenshot>
-    </assets>
-		<news>- Cinenuovo, Pannonia Entertainment, Magyarhangya csatornak hozzaadva - Hibajavitas</news>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.png</fanart>
+		<screenshot>resources/screenshot-01.jpg</screenshot>
+		<screenshot>resources/screenshot-02.jpg</screenshot>
+		<screenshot>resources/screenshot-03.jpg</screenshot>
+	</assets>
+	<news>- Cinenuovo, Pannonia Entertainment, Magyarhangya csatornak hozzaadva - Hibajavitas</news>
 	</extension>
 </addon>
 </addons>
