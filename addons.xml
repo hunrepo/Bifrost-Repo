@@ -35,7 +35,7 @@
 		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
 	</extension>
 	</addon>
-	<addon id="plugin.video.filmelozetesek" name="Filmelőzetesek" version="1.0.1" provider-name="double beretta">
+	<addon id="plugin.video.filmelozetesek" name="Filmelőzetesek" version="1.0.2" provider-name="double beretta">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
 		<import addon="script.module.addon.common" version="2.0.0"/>
